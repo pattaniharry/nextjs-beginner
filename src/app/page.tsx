@@ -1,6 +1,10 @@
+import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
   return (
-    <h1 className="text-2xl text-green-200 text-center"> Test</h1>
+    <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
+    <h1 className="text-2xl text-white  "> Test</h1>
+    <HeroSection/>
+    </main>
   );
 }
